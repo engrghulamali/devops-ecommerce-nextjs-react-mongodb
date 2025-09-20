@@ -1,8 +1,10 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import mongoose from 'mongoose';
-
+import dotenv from "dotenv";
+dotenv.config();
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://easyshop-mongodb:27017/easyshop';
+console.log("Db: ", MONGODB_URI);
 const scriptDir = path.resolve(path.dirname(''));
 
 // Product Schema

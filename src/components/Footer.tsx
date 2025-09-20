@@ -33,13 +33,13 @@ const Footer = () => {
           <div>
             <Logo />
             <div className="dark:text-gray-400">
-              <p className="mt-6">Bihar, India</p>
+              <p className="mt-6">Lahore Pakistan</p>
 
-              <a href="mailto:iemafzalhassan@gmail.com" className="block mt-3">
-                iemafzalhassan@gmail.com
+              <a href="mailto:ghulamalicode@gmail.com" className="block mt-3">
+                ghulamalicode@gmail.com
               </a>
-              <a href="tel:+91 9400344657" className="block mt-1">
-                +91 9400344657
+              <a href="tel:+923076069760" className="block mt-1">
+                +92 307 6069 760
               </a>
 
               <div className="flex flex-wrap gap-3 items-center mt-4">
@@ -49,7 +49,7 @@ const Footer = () => {
                   asChild
                 >
                   <a
-                    href="https://github.com/iemafzalhassan"
+                    href="https://github.com/engrghulamali"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -62,7 +62,7 @@ const Footer = () => {
                   asChild
                 >
                   <a
-                    href="https://twitter.com/iemafzalhassan"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -75,7 +75,7 @@ const Footer = () => {
                   asChild
                 >
                   <a
-                    href="https://www.linkedin.com/in/iemafzalhassan"
+                    href="https://www.linkedin.com/in/engr-ghulam-ali-548686176/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -210,12 +210,12 @@ const Footer = () => {
             </span>{" "}
             by{" "}
             <a
-              href="https://iemafzalhassan.tech"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium hover:text-primary transition-all duration-300 hover:underline decoration-primary decoration-2 underline-offset-4"
             >
-              Md. Afzal Hassan Ehsani
+              Engr. Ghulam Ali
             </a>
           </div>
           

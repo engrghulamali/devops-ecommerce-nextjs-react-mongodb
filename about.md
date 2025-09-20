@@ -329,13 +329,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, please open an issue or contact the maintainers:
 
-- Maintainer - [@Md. Afzal hassan Ehsani](https://github.com/iemafzalhassan)
-- Project Link: [https://github.com/iemafzalhassan/easyshop](https://github.com/iemafzalhassan/easyshop)
+- Maintainer - [Engr. Ghulam Ali](https://github.com/engrghulamali)
+- Project Link: [https://github.com/engrghulamali/devops-ecommerce-nextjs-react-mongodb](https://github.com/engrghulamali/devops-ecommerce-nextjs-react-mongodb)
 
 ---
 
 <div align="center">
   <p>
-    Made with ❤️ by <a href="https://iemafzalhassan.tech" target="_blank"><b>Md. Afzal Hassan Ehsani</b></a>
+    Made with ❤️ by <a href="https://github.com/engrghulamali" target="_blank"><b>Engr. Ghulam Ali</b></a>
   </p>
 </div>

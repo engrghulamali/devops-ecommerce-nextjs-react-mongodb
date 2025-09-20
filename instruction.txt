@@ -1,0 +1,21 @@
+Install on Local machine
+
+Pre-requistes
+node 18
+
+clone
+git clone https://github.com/engrghulamali/devops-ecommerce-nextjs-react-mongodb.git
+
+cd project
+update .env file
+
+npm install 
+
+npm install dotenv
+import dotenv from "dotenv";
+dotenv.config();
+
+run db migrate
+npx ts-node --project scripts/tsconfig.json scripts/migrate-data.ts
+
+npm run dev

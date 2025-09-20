@@ -19,18 +19,18 @@ const ContactPage = () => {
           <div>
             <h4 className="font-semibold mb-1">Address</h4>
             <p className="text-sm text-muted-foreground">
-              Bihar, India
+              Lahore, Pakistan
             </p>
           </div>
 
           <div className="mt-4">
             <h4 className="font-semibold mb-1">Phone</h4>
-            <p className="text-sm text-muted-foreground">+91 9400344657</p>
+            <p className="text-sm text-muted-foreground">+92 307 6069 760</p>
           </div>
 
           <div className="mt-4">
             <h4 className="font-semibold mb-1">Email Address</h4>
-            <p className="text-sm text-muted-foreground">iemafzalhassan@gmail.com</p>
+            <p className="text-sm text-muted-foreground">ghulamalicode@gmail.com</p>
           </div>
           <div className="mt-4">
             <h3 className="font-semibold">Follow Me</h3>
@@ -41,7 +41,7 @@ const ContactPage = () => {
                 asChild
               >
                 <a
-                  href="https://github.com/iemafzalhassan"
+                  href="https://github.com/engrghulamali"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -54,7 +54,7 @@ const ContactPage = () => {
                 asChild
               >
                 <a
-                  href="https://www.linkedin.com/in/iemafzalhassan"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -67,7 +67,7 @@ const ContactPage = () => {
                 asChild
               >
                 <a
-                  href="https://twitter.com/iemafzalhassan"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
