@@ -21,7 +21,7 @@ services:
     build:
       context: .
       dockerfile: scripts/Dockerfile.migration
-    container_name: easyshop-migration
+    container_name: devops-ecommerce-nextjs-react-mongodb-migration-image
     env_file:
       - .env.local
     depends_on:
@@ -34,7 +34,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: easyshop
+    container_name: devops-ecommerce-nextjs-react-mongodb-image
     ports:
       - "3000:3000"
     env_file:

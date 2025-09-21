@@ -1,31 +1,31 @@
-# Stage 1: Development/Build Stage
+# Stage 1: Build
 FROM node:18-alpine AS builder
 
 # Set working directory
 WORKDIR /app
 
-# Install necessary build dependencies
-RUN apk add --no-cache python3 make g++
+# Install build dependencies
+RUN apk add --no-cache python3 build-base
 
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
+# Install dependencies (with clean cache)
 RUN npm ci
 
-# Copy all project files
+# Copy rest of project files
 COPY . .
 
-# Build the Next.js application
+# Build Next.js app
 RUN npm run build
 
-# Stage 2: Production Stage
+# Stage 2: Production
 FROM node:18-alpine AS runner
 
 # Set working directory
 WORKDIR /app
 
-# Copy necessary files from builder stage
+# Copy only the standalone build from builder
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/public ./public
@@ -34,8 +34,8 @@ COPY --from=builder /app/public ./public
 ENV NODE_ENV=production
 ENV PORT=3000
 
-# Expose the port the app runs on
+# Expose port
 EXPOSE 3000
 
-# Command to run the application
+# Run Next.js standalone server
 CMD ["node", "server.js"]
